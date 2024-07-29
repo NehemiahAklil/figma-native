@@ -1,10 +1,10 @@
-# <img src="https://raw.githubusercontent.com/NehemiahAklil/figma-native/master/resources/assets/icons/png/32x32.png" width="32"> Figma-Native (Unofficial Desktop Client)
+# <img src="https://raw.githubusercontent.com/NehemiahAklil/figma-native/master/assets/icons/png/32x32.png" width="32"> Figma-Native (Unofficial Desktop Client)
 
 
 Figma-native is my own home made an unofficial [Electron](http://electron.atom.io) wrapper for [Figma](https://figma.com) web app for a native desktop experience on Linux.
 
 <p>
-	<img src="https://raw.githubusercontent.com/NehemiahAklil/figma-native/master/resources/assets/Screenshot.png">
+	<img src="https://raw.githubusercontent.com/NehemiahAklil/figma-native/master/assets/Screenshot.png">
 </p>
 
 <p>
@@ -24,14 +24,6 @@ Figma-native is my own home made an unofficial [Electron](http://electron.atom.i
     <a href="https://github.com/NehemiahAklil/figma-native/stargazers">
 		<img src="https://img.shields.io/github/stars/NehemiahAklil/figma-native.svg?style=social&label=Stars">
 	</a>
-</p>
-
-<!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d80ff1e7c3fe4da28e2e50a28d4ead7c)](https://www.codacy.com/manual/NehemiahAklil/figma-native?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NehemiahAklil/figma-native&amp;utm_campaign=Badge_Grade) -->
-[![Snap](https://snapcraft.io/figma-native/badge.svg)](https://snapcraft.io/figma-native)
-
-<p>
-	<span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/U5hnMuASy" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>
-	<span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4DNBUKPV6FBCY&source=url" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 </p>
 
 ## Installation
