@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=0.1.0
+Type=Application
+Name=Figma-Native
+GenericName=Design Tool
+Comment=The collaborative interface design tool. Unofficial electron wrapper for Desktop figma client
+Exec=figma-native %U
+TryExec=figma-native
+Icon=figma-native
+StartupNotify=false
+Terminal=false
+Categories=Utility;
+Keywords=Design;

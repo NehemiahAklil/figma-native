@@ -1,0 +1,41 @@
+{
+  "name": "figma-native",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "build": "electron-builder",
+    "make_icon": "electron-icon-maker -i assets/base/icon.png -o assets/"
+  },
+  "build": {
+    "appId": "org.wegegtatech.figma-native",
+    "productName": "figma-native",
+    "directories": {
+      "output": "dist"
+    },
+    "files": "!assets${/*}",
+    "win": {},
+    "mac": {
+      "category": "com.figma.design.web"
+    },
+    "linux": {
+      "category": "Graphics",
+      "desktop": {
+        "Icon": "build/icon.png",
+        "Name": "Figma Native",
+        "Comment": "A electron wrapper for figma for native use on linux",
+        "Categories": "GNOME;GTK;Network;InstantMessaging"
+      }
+    }
+  },
+  "keywords": [],
+  "author": "Nehemiah Aklil",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.3.0",
+    "electron-builder": "^24.13.3",
+    "electron-icon-maker": "^0.0.5"
+  }
+}
