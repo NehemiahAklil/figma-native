@@ -6,13 +6,10 @@ function createWindow() {
     height: 600,
     webPreferences: {
       nodeIntegration: true,
-      // For communication, adjust as needed
     },
   });
 
-  win.loadURL("https://www.figma.com"); // Replace with your desired Figma URL
-
-  // Add event listeners for communication and other features
+  win.loadURL("https://www.figma.com");
 }
 
 app.whenReady().then(() => {

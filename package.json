@@ -32,7 +32,7 @@
   "keywords": [],
   "author": "Nehemiah Aklil",
   "license": "ISC",
-  "description": "",
+  "description": "home made a electron wrapper for figma for a desktop experience on linux",
   "devDependencies": {
     "electron": "^31.3.0",
     "electron-builder": "^24.13.3",
