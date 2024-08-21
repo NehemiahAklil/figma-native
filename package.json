@@ -1,6 +1,6 @@
 {
   "name": "figma-native",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
