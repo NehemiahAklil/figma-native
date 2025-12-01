@@ -7,7 +7,13 @@ echo "           Figam-Native Linux Setup            "
 echo "----------------------------------------------"
 
 # Copy figma AppImage into user bin to make executable
-cp dist/figma-native-*.AppImage /usr/bin/figma-native
+# Find one AppImage and copy it as figma-native
+APP_IMAGE=$(ls dist/figma-native-*.AppImage | head -n 1)
+if [ -d "/usr/bin/figma-native" ]; then
+    rm -rf "/usr/bin/figma-native"
+fi
+cp "$APP_IMAGE" /usr/bin/figma-native
+chmod +x /usr/bin/figma-native
 echo "Copied App Executable ....... User Executables"
 #  Add Icons for linux
 cp assets/icons/png/48x48.png  /usr/share/icons/hicolor/48x48/apps/figma-native.png
